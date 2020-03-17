@@ -1,0 +1,30 @@
+h1 {
+    color: green;
+    text-align: center;
+    }
+    
+    
+    #userList {
+        list-style-type: none;
+        width: 250px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #userList li {
+        padding: .5em .1em;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    
+    #userList li:hover {
+        background-color: #eee;
+        cursor: pointer;
+    }
+    
+    #userList li:first-of-type {
+    
+        border-top: 1px solid #ccc;
+    
+    }
